@@ -32,3 +32,37 @@ print(y)
 price = 20
 print(price < 15)
 print(price>10)
+temperature = 20
+if temperature > 30:
+    print("It's a hot day")
+    print("Drink plenty of water")
+    print("Drink plenty of water")
+elif temperature > 20:
+    print("Its a normal day")
+print("Done")
+# 06:
+weight = input("Weight: ")
+unit = input("(K)g or (L)bs: ")
+if unit.upper() == "K":
+    converted = float(weight) / 0.45
+    print("Weight in Pounds: ", converted)
+else:
+    converted = float(weight) * 0.45
+    print("Weight in Kg: ", converted)
+weight = input("Weight: ")
+unit = input("(k)g or (l)bs: ")
+if unit.upper() == "K":
+    converted = float(weight) / 0.45
+    print("Wight in Pound: ", converted)
+else:
+    converted = float(weight) * 0.45
+    print("Weight in Kg: ", converted)
+i = 1
+while i <= 10:
+    print(i)
+    i = i + 1
+"""
+j = 1
+while j <= 10:
+    print(j * "*")
+    j += 1
